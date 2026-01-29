@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+/*body {*/
+/*    width: 8.5in;*/
+/*    height: 11in;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    margin: 16px;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+
+div.header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 4px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+a {
+    color: #6a5acd;
+    margin: 16px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 16px;
+    color: #6a5acd;
+}
+
+
+h4 {
+    font-weight: normal;
+    margin-right: 8px;
+}
+
+div.group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+table {
+    width: 100%;
+}
+
+tr {
+    margin: 4px 0;
+}
+
+td {
+    padding: 4px;
+}
+
+
+td.left {
+    width: 20%;
+}
+
+td.right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+td span {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    color: #333;
+}
+
+ul {
+    margin: 4px 24px;
+}
+
+h3 {
+    margin-top: 12px;
+}
