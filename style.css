@@ -102,3 +102,13 @@ ul {
 section {
     margin-bottom: 16px;
 }
+
+.split-section {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.split-section > div {
+    flex: 1;
+}

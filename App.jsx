@@ -53,23 +53,33 @@ function App() {
             </div>
 
             <p>
-                Passionate developer with deep expertise in mobile, cross-platform and micro-services.
+                Passionate developer with deep expertise in cross-platform mobile and distributed systems.
                 <br/> I love computers and always try to creatively connect things.
             </p>
 
 
-
-            <h2>WORK EXPERIENCE</h2>
-            <table>
-                <tbody>
-                <Experience duration="Oct '21 - Present">
-                    <strong>Senior Software Engineer, Myntra</strong>
-                </Experience>
-                <Experience duration="Jul '19 - Oct '21">
-                    Software Engineer, Myntra
-                </Experience>
-                </tbody>
-            </table>
+            <div className="split-section">
+                <div>
+                    <h2>EXPERIENCE</h2>
+                    <table>
+                        <tbody>
+                        <Experience duration="Oct '21 - Present">
+                            <strong>Senior Software Engineer, Myntra</strong>
+                        </Experience>
+                        <Experience duration="Jul '19 - Oct '21">
+                            Software Engineer, Myntra
+                        </Experience>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h2>EDUCATION</h2>
+                    <h4> B.Tech in <strong>Computer Science</strong>, <strong>National Institute Of Technology, Rourkela</strong> (2019) </h4>
+                    <ul>
+                        <li>Led institute team to <strong>National Finals</strong> at Smart India Hackathon 2017 by Government of India.</li>
+                    </ul>
+                </div>
+            </div>
 
             <h2>SKILLS</h2>
             <table>
@@ -107,7 +117,7 @@ function App() {
                 </tbody>
             </table>
 
-            <h2>EXPERIENCE</h2>
+            <h2>WORK</h2>
             <div>
                 <Category title="Product">
                     <li>
@@ -154,11 +164,12 @@ function App() {
             <h2>PROJECTS</h2>
             <div>
                 <strong><a href="https://github.com/shibasis0801/flatInvoker/tree/main/reaktor-graph/src/commonMain/kotlin/dev/shibasis/reaktor/graph/core">
-                    Reaktor:
+                    Reaktor
                 </a></strong>
-                {" "} Full stack (android, iOS, web, c++, node, spring) Kotlin multiplatform modules and services for next generation products.
+                <br />
+                Full stack (android, iOS, web, c++, node, spring) Kotlin multiplatform modules and services for next generation products.
                 <ul>
-                    <li>PortGraph for <strong>Flow based programming</strong> </li>
+                    <li>PortGraph for <strong>Flow based programming</strong>, DAGs and custom Navigation. </li>
                     <li>tRPC style REST APIs without codegen </li>
                     <li>SQL based RBAC JWT Auth with Apple/Google login. </li>
                     <li>Object Database using Kotlin Serialization </li>
@@ -173,12 +184,6 @@ function App() {
                     </Project>
                 </Category>
             </div>
-
-            <h2>EDUCATION</h2>
-            <h4> B.Tech in <strong>Computer Science</strong>, <strong>National Institute Of Technology, Rourkela</strong> (2019) </h4>
-            <ul>
-                <li>Led institute team to <strong>National Finals</strong> at Smart India Hackathon 2017 by Government of India.</li>
-            </ul>
         </div>
     );
 }
