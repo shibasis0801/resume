@@ -63,10 +63,10 @@ function App() {
                     <h2>EXPERIENCE</h2>
                     <table>
                         <tbody>
-                        <Experience duration="Oct '21 - Present">
+                        <Experience duration="Oct 2021 - Present">
                             <strong>Senior Software Engineer, Myntra</strong>
                         </Experience>
-                        <Experience duration="Jul '19 - Oct '21">
+                        <Experience duration="Jul 2019 - Oct 2021">
                             Software Engineer, Myntra
                         </Experience>
                         </tbody>
@@ -75,47 +75,11 @@ function App() {
                 <div>
                     <h2>EDUCATION</h2>
                     <h4> B.Tech in <strong>Computer Science</strong>, <strong>National Institute Of Technology, Rourkela</strong> (2019) </h4>
-                    <ul>
+                    <ul style={{marginTop: "16px"}}>
                         <li>Led institute team to <strong>National Finals</strong> at Smart India Hackathon 2017 by Government of India.</li>
                     </ul>
                 </div>
             </div>
-
-            <h2>SKILLS</h2>
-            <table>
-                <tbody>
-                <Domain title="Languages"
-                        skills={["C++", "Kotlin", "Java", "TypeScript", "JavaScript", "Python"]}
-                />
-                <Domain title="Mobile"
-                        skills={["Android", "Web", "Coroutines", "GCD", "fbJNI", "Koin", "SQLDelight"]}
-                />
-                <Domain title="Backend"
-                        skills={["Spring Boot", "Express.js", "Kafka", "Hibernate", "AOP", "Kubernetes"]}
-                />
-                <Domain title="Databases"
-                        skills={["PostgreSQL", "MySQL", "SQLite", "TiDB", "Memgraph"]}
-                />
-                <Domain title="Runtimes & Internals"
-                        skills={["Kotlin", "JVM", "Node.js", "React Native/JSI", "FlatBuffers"]}
-                />
-                <Domain title="Kotlin Multiplatform"
-                        skills={["Compose Multiplatform", "cinterop", "karakum", "CMake"]}
-                />
-                <Domain title="React"
-                        skills={["React Native", "React", "JSI", "Hermes"]}
-                />
-                <Domain title="Cloud"
-                        skills={["Cloudflare Actors, Workers", "GCP Cloud Run, Compute Engine, Firebase"]}
-                />
-                <Domain title="Tooling"
-                        skills={["Gradle Plugins", "Custom Serializers", "Profiling", "FlameCharts", "Grafana"]}
-                />
-                <Domain title="AI"
-                        skills={["MLKit", "TensorFlow", "Keras", "Scikit-Learn"]}
-                />
-                </tbody>
-            </table>
 
             <h2>WORK</h2>
             <div>
@@ -158,9 +122,36 @@ function App() {
                         Added <strong>automated dashboard generation</strong> based on server introspection and Grafana observability for Express.js.
                     </li>
                 </Category>
-
             </div>
-
+            <h2>SKILLS</h2>
+            <table>
+                <tbody>
+                <Domain title="Languages"
+                        skills={["C++", "Kotlin", "Java", "TypeScript", "JavaScript"]}
+                />
+                <Domain title="Mobile"
+                        skills={["Android", "Web", "Coroutines", "GCD", "fbJNI", "Koin", "SQLDelight", "Flatbuffers"]}
+                />
+                <Domain title="Backend"
+                        skills={["Spring Boot", "Express.js", "Kafka", "Hibernate", "AOP", "Kubernetes"]}
+                />
+                <Domain title="Databases"
+                        skills={["PostgreSQL", "MySQL", "SQLite", "TiDB", "Memgraph"]}
+                />
+                <Domain title="Kotlin Multiplatform"
+                        skills={["Compose Multiplatform", "cinterop", "karakum", "CMake"]}
+                />
+                <Domain title="React"
+                        skills={["React Native", "React", "JSI", "Hermes"]}
+                />
+                <Domain title="Cloud"
+                        skills={["Cloudflare Actors, Workers", "GCP Cloud Run, Compute Engine, Firebase"]}
+                />
+                <Domain title="Tooling"
+                        skills={["Gradle Plugins", "Custom Serializers", "Profiling", "FlameCharts", "Grafana"]}
+                />
+                </tbody>
+            </table>
             <h2>PROJECTS</h2>
             <div>
                 <strong><a href="https://github.com/shibasis0801/flatInvoker/tree/main/reaktor-graph/src/commonMain/kotlin/dev/shibasis/reaktor/graph/core">
@@ -184,6 +175,7 @@ function App() {
                     </Project>
                 </Category>
             </div>
+
         </div>
     );
 }
